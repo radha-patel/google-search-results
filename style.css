@@ -1,3 +1,22 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+#search {
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 23px;
+    width: 670px;
+    border: 1px solid hsl(0, 0%, 92%);
+    background-image: url('images/x-icon.png'), url('images/mic-icon.jpg'), url('images/blue-magnifier.png');
+    background-size: 13px 13px, 13px 18px, 17px 17px;
+    background-repeat: no-repeat;
+    background-position: 585px 14px, 622px 12px, 655px 13px;
+}
+
+#search:hover {
+    box-shadow: 1px 1px 3px 2px hsl(0, 0%, 92%);
+}
