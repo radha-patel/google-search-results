@@ -20,3 +20,14 @@ body {
 #search:hover {
     box-shadow: 1px 1px 3px 2px hsl(0, 0%, 92%);
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.result {
+    display: flex;
+    flex-direction: column; 
+}
