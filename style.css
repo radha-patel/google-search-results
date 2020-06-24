@@ -1,20 +1,37 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #545454;
+    font-size: 14px;
+    --left-margin: 170px;
+}
+
+#header {
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 13px;
+    padding-bottom: 6px;
+}
+
+#google-pic {
+    width:92px;
+    height:30px;
+    padding: 20px 40px 20px 15px;
+    float:left;
 }
 
 #search {
     border-radius: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 25px;
     padding-right: 10px;
-    height: 23px;
-    width: 670px;
-    border: 1px solid hsl(0, 0%, 92%);
+    height: 22px;
+    width: 660px;
+    border: 1px solid hsl(0, 0%, 88%);
     background-image: url('images/x-icon.png'), url('images/mic-icon.jpg'), url('images/blue-magnifier.png');
     background-size: 13px 13px, 13px 18px, 17px 17px;
     background-repeat: no-repeat;
     background-position: 585px 14px, 622px 12px, 655px 13px;
+    font-size: 16px;
 }
 
 #search:hover {
@@ -25,9 +42,43 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width:600px;
+    font-size:13px;
+    padding-top:9px;
+}
+
+.pages {
+    margin-right: 600px;
+}
+
+#count {
+    color: #70757;
+    margin-left: var(--left-margin);
 }
 
 .result {
     display: flex;
     flex-direction: column; 
+    margin-left: var(--left-margin);
+    margin-top: 20px;
+}
+
+.link {
+    color: #006621;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 6px;
 }
